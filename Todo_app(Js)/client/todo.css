@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+
+
+.container{
+    width: 400px;
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

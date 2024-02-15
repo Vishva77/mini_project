@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+
+.warning{
+    color: red;
+}
+#tablee{
+    padding: 10px;
+    border: solid 3px;
+    border-radius: 3px;
+    width: 300px;
+}
