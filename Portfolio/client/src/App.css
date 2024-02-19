@@ -1,0 +1,21 @@
+*{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+.home{
+  background-color: rgb(70, 70, 243);
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+.home h1{
+  color: rgb(221, 134, 20);
+  font-size: 100px;
+}
+.home h3{
+  color: azure;
+}

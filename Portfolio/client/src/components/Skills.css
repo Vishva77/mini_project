@@ -1,0 +1,26 @@
+#skills{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(167, 222, 230);
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 600px;
+}
+h1{
+    font-family: serif;
+    color: black;
+    font-size: 35px;
+}
+#skills ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#skills ul li{
+    color: rgb(13, 15, 15);
+    font-size: 20px;
+}

@@ -1,0 +1,13 @@
+#Footer{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+h4{
+    text-decoration: dotted;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: blue;
+}
