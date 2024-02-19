@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-.hero{
+.home{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #010758,#490d61);
@@ -14,13 +14,13 @@
     flex-direction: column;
     color: antiquewhite;
 }
-.hero h1{
+.home h1{
     font-size: 45px;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
 }
-.hero h1 span{
+.home h1 span{
     color: palevioletred;
 }
 textarea{
