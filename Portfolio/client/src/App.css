@@ -1,9 +1,10 @@
-*{
+* {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
-.home{
+
+.home {
   background-color: rgb(70, 70, 243);
   font-family: serif;
   display: flex;
@@ -12,17 +13,19 @@
   flex-direction: column;
   height: 600px;
 }
-.home h1{
+
+.home h1 {
   color: rgb(221, 134, 20);
   font-size: 100px;
 }
-.home h3{
+
+.home h3 {
   color: azure;
 }
 
-.footerr{
+.footerr {
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
-  text-align:end;
+  justify-content: flex-end;
+  text-align: end;
 }

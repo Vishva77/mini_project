@@ -1,15 +1,11 @@
 #education {
     height: 100%;
-    /* Set height to 100% to fill the available space */
     background-color: whitesmoke;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
     #education {
         height: auto;
-        /* Allow height to adjust based on content */
         padding: 20px;
-        /* Add padding to the component */
     }
 }

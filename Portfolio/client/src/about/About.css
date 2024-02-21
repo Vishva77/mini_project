@@ -1,0 +1,21 @@
+#about{
+    background-color: white;
+    height: 441px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px rgb(26, 169, 235);
+    border-radius: 2px;
+}
+
+.abt {
+    border: solid 3px rgb(34, 32, 32);
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.abt h3 {
+    color: grey;
+    column-gap: 50px;
+    line-height: 33px;
+}

@@ -6,16 +6,13 @@
     background-color: rgb(70, 70, 243);
     height: 100px;
     gap: 20px;
-    /* Reduced the gap between buttons for smaller screens */
 }
 
 .header Button {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    /* Reduced font size for smaller screens */
     padding: 8px 12px;
-    /* Added padding to the buttons */
 }
 
 .header h3 {
@@ -28,22 +25,16 @@
     color: red;
     transition: 0.3s;
     font-size: 20px;
-    /* Increased font size on hover for better visibility */
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        /* Stack buttons vertically on smaller screens */
         height: auto;
-        /* Allow header height to adjust based on content */
     }
 
     .header Button {
         margin-bottom: 10px;
-        /* Add margin between buttons in vertical layout */
         font-size: 14px;
-        /* Further reduce font size for smaller screens */
     }
 }

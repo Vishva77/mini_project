@@ -34,7 +34,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
     #skills {
         height: auto;
