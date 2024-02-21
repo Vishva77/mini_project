@@ -1,23 +1,27 @@
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import {Header} from "./components/Header.js";
-import {Footer} from "./components/Footer.js";
-import { Skills } from './components/Skills.js';
+import Education from './education/Education.js';
+import { Footer } from "./components/Footer.js";
+import { Header } from "./components/Header.js";
+import Home from './components/Home.jsx';
+import { Project } from './projects/Project.js';
+import { Skills } from './skills/Skills.js';
 
 function App() {
   return (
     <div>
-      <div className="App">
-      <Header/>
-      <div className='home'>
-        <h1>Hai I am VISHVA </h1>
-        <br/>
-        <br/>
-        <br/>
-        <h3>I am a Web Developer</h3>
-      </div>
-      <Skills/>
-    </div>
-    <Footer/>
+      <Router>
+        <Header/>
+        <Routes>
+          <Route path={"/"} element = {<Home/>}/>
+          <Route path={"/projects"} element = {<Project/>}/>
+          <Route path={"/skills"} element = {<Skills/>}/>
+          <Route path={"/education"} element = {<Education/>}/>
+        </Routes>
+        <div className='footerr'>
+        <Footer/>
+        </div>
+      </Router>
     </div>
   );
 }
