@@ -78,3 +78,8 @@ select{
     background-position-x:  calc(100% - 20px);
     background-position-y: 7px;
 }
+
+#vish{
+    font-family: sanerif;
+    font-weight: 100;
+}
