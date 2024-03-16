@@ -1,0 +1,51 @@
+.textAreaStyle {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 12px;
+  height: 150px;
+  border: 2px solid cadetblue;
+  margin: 25px auto;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+.buttonStyle {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: bold;
+  border: 2px solid cadetblue;
+  background-color: white;
+  color: cadetblue;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px auto;
+}
+
+.buttonStyle:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+.container {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .textAreaStyle {
+    width: 90%;
+    max-width: 90%;
+    height: 100px;
+  }
+
+  .buttonStyle {
+    padding: 10px 20px;
+  }
+}
