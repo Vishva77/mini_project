@@ -40,11 +40,11 @@ button:hover {
   }
 
   button {
-    width: calc(100% - 20px); /* Adjusting for padding */
+    width: calc(100% - 20px);
   }
 
   h1 {
-    font-size: 24px; /* Adjusting font size for smaller screens */
-    margin-bottom: 10px; /* Adding margin to the heading for better spacing */
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 }
