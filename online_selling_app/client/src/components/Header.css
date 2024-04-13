@@ -1,0 +1,38 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .btn {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    color: rgb(239, 248, 248);
+    background-color: black;
+    padding: 10px 20px; /* Add padding for better touch interaction */
+    border: none; /* Remove border for cleaner look */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 600px) {
+    .Header {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+    
+    .btn {
+      flex-direction: column; /* Change button layout to column for smaller screens */
+      gap: 5px; /* Reduce gap between buttons */
+    }
+  
+    button {
+      width: 100%; /* Make buttons full width */
+    }
+  }
+  
