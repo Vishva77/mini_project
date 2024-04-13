@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Form.css";
+import Axios from "axios";
 
 function Form() {
     const [vehiclename, setvehiclename] = useState("");
@@ -9,9 +10,12 @@ function Form() {
     const [img, setimg] = useState("");
 
 const handleSubmit = () => {
-    const data = { vehiclename, price, year, whatsapp, img };
-    console.log(data);
-    // window.location.reload();
+    const data = { vehicleName:vehiclename, price:price, year:year, whatsapp:whatsapp, img:img };
+    Axios.post("http://localhost:5000/info/datapost",data).then((res) => {
+        console.log(res);
+        console.log(data, "data sent successfully");
+        window.location.reload();
+    })
     };
     return (
     <div className="container">

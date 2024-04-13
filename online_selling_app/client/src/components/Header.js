@@ -11,12 +11,11 @@ function Header() {
     <div className="Header">
       <h1>Online Selling Platform</h1>
       <div className='btn'>
-    <button onClick={() =>{SetForm(!form)}}>SELL</button>
-    <button  onClick={() =>{SetTable(!table)}}>BUY</button>
-    </div>
-    {form && <Form/>}
-    {table && <Table/>}
-
+        <button onClick={() =>{SetForm(!form)}}>SELL</button>
+        <button onClick={() =>{SetTable(!table)}}>BUY</button>
+      </div>
+      {form && <Form/>}
+      {table && <Table/>}
     </div>
   );
 }

@@ -1,40 +1,47 @@
-.header {
+.Header {
     display: flex;
-    position: sticky;
     align-items: center;
     justify-content: center;
-    background-color: rgb(70, 70, 243);
-    height: 100px;
-    gap: 20px;
-}
-
-.header Button {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 12px;
-}
-
-.header h3 {
-    display: flex;
     flex-direction: column;
-}
-
-.header h3:hover {
-    cursor: pointer;
-    color: red;
-    transition: 0.3s;
-    font-size: 20px;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        height: auto;
+    gap: 10px;
+    padding: 20px; /* Add padding for better spacing */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+  
+  .btn {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    color: rgb(239, 248, 248);
+    background-color: black;
+    padding: 10px 20px; /* Add padding for better touch interaction */
+    border: none; /* Remove border for cleaner look */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-family: 'Roboto', sans-serif; /* Change font family */
+    cursor: pointer; /* Add pointer cursor for buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: #333; /* Darken background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 600px) {
+    .Header {
+      padding: 10px; /* Reduce padding for smaller screens */
     }
-
-    .header Button {
-        margin-bottom: 10px;
-        font-size: 14px;
+    
+    .btn {
+      flex-direction: column; /* Change button layout to column for smaller screens */
+      gap: 5px; /* Reduce gap between buttons */
     }
-}
+  
+    button {
+      width: 100%; /* Make buttons full width */
+    }
+  }
+  
